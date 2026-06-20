@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-ME">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Šućur Product - Hot Pizza Tivat</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/sucur-pizza-tivat-logo.jpg" alt="Šućur Product logo" />
+          Šućur Product
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Početna</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">O nama</a>
+            </li>
+            <li>
+              <a href="#popular" class="nav__link">Popularno</a>
+            </li>
+            <li>
+              <a href="#products" class="nav__link">Meni</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Kontakt</a>
+            </li>
+            <li>
+              <a href="#map" class="nav__link">Mapa</a>
+            </li>
+          </ul>
+          <!--=============== CLOSE BUTTON ===============-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <!--=============== TOGGLE BUTTON ===============-->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Hot Pizza <br />
+              Šućur Product
+            </h1>
+            <p class="home__description">
+              Vrhunski kvalitet hrane dostavljen direktno na vašu adresu u
+              Tivtu. Poručite pizze i sendviče telefonom i uživajte u brzoj
+              dostavi.
+            </p>
+            <a href="tel:+38268753224" class="button">Pozovite za porudžbinu</a>
+            <img
+              src="assets/img/sticker-pizza.svg"
+              alt="pizza naljepnica"
+              class="home__sticker-1"
+            />
+            <img
+              src="assets/img/sticker-leaf.svg"
+              alt="list naljepnica"
+              class="home__sticker-2"
+            />
+          </div>
+          <div class="home__images">
+            <img
+              src="assets/img/home-pizza.png"
+              alt="pizza"
+              class="home__pizza"
+            />
+            <img
+              src="assets/img/home-board.png"
+              alt="daska za pizzu"
+              class="home__board"
+            />
+            <img
+              src="assets/img/home-leaf-1.png"
+              alt="list"
+              class="home__ingredient home__leaf-1"
+            />
+            <img
+              src="assets/img/home-leaf-2.png"
+              alt="list"
+              class="home__ingredient home__leaf-2"
+            />
+            <img
+              src="assets/img/home-pepperoni.png"
+              alt="kulen"
+              class="home__ingredient home__pepperoni"
+            />
+            <img
+              src="assets/img/home-mushroom.png"
+              alt="šampinjon"
+              class="home__ingredient home__mushroom"
+            />
+            <img
+              src="assets/img/home-olive.png"
+              alt="maslina"
+              class="home__ingredient home__olive"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="paradajz"
+              class="home__ingredient home__tomato"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              Svježe, ukusno <br />
+              i brzo dostavljeno
+            </h2>
+            <p class="about__description">
+              Šućur Product u Tivtu priprema pažljivo odabranu ponudu pizza i
+              sendviča. Naša hrana stiže topla, svježa i spremna za uživanje,
+              bilo da naručujete ručak, večeru ili obrok za cijelu porodicu.
+            </p>
+            <a href="#products" class="button">Pogledajte meni</a>
+            <img
+              src="assets/img/sticker-cheese.svg"
+              alt="sir naljepnica"
+              class="about__sticker"
+            />
+          </div>
+          <img
+            src="assets/img/domaci-sendvic.png"
+            alt="Domaći sendvič"
+            class="about__img about__photo"
+          />
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <div class="popular__container container grid">
+          <div class="popular__data">
+            <h2 class="section__title">
+              Izdvajamo <br />
+              iz ponude
+            </h2>
+            <p class="popular__description">
+              Od domaće pizze i popularnih klasika do domaćeg sendviča sa
+              njeguškim pršutom, sirom i ruskom salatom.
+            </p>
+          </div>
+          <div class="popular__swiper swiper">
+            <img
+              src="assets/img/popular-dish.png"
+              alt="tanjir"
+              class="popular__dish"
+            />
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular-1.png"
+                  alt="Domaća pizza"
+                  class="popular__img"
+                />
+                <h3 class="popular__title">Domaća pizza</h3>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular-2.png"
+                  alt="Quattro Formaggi pizza"
+                  class="popular__img"
+                />
+                <h3 class="popular__title">Quattro Formaggi</h3>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular-3.png"
+                  alt="Pepperoni pizza"
+                  class="popular__img"
+                />
+                <h3 class="popular__title">Pepperoni pizza</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section">
+        <h2 class="section__title">
+          Sastojci koji <br />
+          nose ukus
+        </h2>
+        <div class="recipe__container container grid">
+          <div class="recipe__list grid">
+            <div class="recipe__ingredient">
+              <img
+                src="assets/img/recipe-flour.png"
+                alt="brašno"
+                class="recipe__image"
+              />
+              <div>
+                <h3 class="recipe__name">Tijesto</h3>
+                <p class="recipe__description">
+                  Mekano i hrskavo tijesto pripremljeno za svaki zalogaj.
+                </p>
+              </div>
+            </div>
+            <div class="recipe__ingredient">
+              <img
+                src="assets/img/recipe-cheese.png"
+                alt="sir"
+                class="recipe__image"
+              />
+              <div>
+                <h3 class="recipe__name">Sir</h3>
+                <p class="recipe__description">
+                  Mocarela, gorgonzola, grana padano i domaći sirevi.
+                </p>
+              </div>
+            </div>
+            <div class="recipe__ingredient">
+              <img
+                src="assets/img/recipe-sauces.png"
+                alt="sos"
+                class="recipe__image"
+              />
+              <div>
+                <h3 class="recipe__name">Pelat i sosovi</h3>
+                <p class="recipe__description">
+                  Klasični pelat, pesto i šampinjon sos za puniji ukus.
+                </p>
+              </div>
+            </div>
+            <div class="recipe__ingredient">
+              <img
+                src="assets/img/recipe-tomato.png"
+                alt="povrće"
+                class="recipe__image"
+              />
+              <div>
+                <h3 class="recipe__name">Povrće</h3>
+                <p class="recipe__description">
+                  Šampinjoni, paprika, rukola, čeri paradajz i kukuruz.
+                </p>
+              </div>
+            </div>
+            <div class="recipe__ingredient">
+              <img
+                src="assets/img/recipe-meat.png"
+                alt="meso"
+                class="recipe__image"
+              />
+              <div>
+                <h3 class="recipe__name">Meso</h3>
+                <p class="recipe__description">
+                  Šunka, kulen, pršuta, piletina, panceta i goveđa pečenica.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            src="assets/img/recipe-img.png"
+            alt="pizza sastojci"
+            class="recipe__img"
+          />
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <h2 class="section__title">
+          Pizza meni <br />
+          i sendviči
+        </h2>
+        <div class="menu__wrap container">
+          <div class="menu__note">
+            <strong>Veličine pizza:</strong> srednja 400 g i porodična 900 g.
+            Porudžbine se primaju isključivo preko broja
+            <a href="tel:+38268753224">+382 68 753 224</a>.
+          </div>
+
+          <div class="menu__grid">
+            <article class="menu__panel">
+              <h3 class="menu__title">Pizze</h3>
+              <div class="menu__table">
+                <div class="menu__head">
+                  <span>Naziv</span>
+                  <span>Srednja</span>
+                  <span>Porodična</span>
+                </div>
+
+                <div class="menu__item">
+                  <div>
+                    <h4>Domaća pizza</h4>
+                    <p>Šunka, kulen, pečenica, šampinjoni, kajmak, pelat, sir</p>
+                  </div>
+                  <span>9.80 €</span>
+                  <span>18.20 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Margherita pizza</h4>
+                  </div>
+                  <span>6.80 €</span>
+                  <span>13.20 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Funghi pizza</h4>
+                  </div>
+                  <span>7.20 €</span>
+                  <span>13.80 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Vesuvio pizza</h4>
+                  </div>
+                  <span>7.20 €</span>
+                  <span>13.80 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Capricciosa pizza</h4>
+                  </div>
+                  <span>7.40 €</span>
+                  <span>14.40 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Vegetariana pizza</h4>
+                    <p>Tikvica, patlidžan, paprika, pelat, sir</p>
+                  </div>
+                  <span>7.40 €</span>
+                  <span>14.40 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Quattro Formaggi pizza</h4>
+                    <p>Sir, pelat, mocarela, gorgonzola, grana padano, pavlaka</p>
+                  </div>
+                  <span>8.30 €</span>
+                  <span>17.00 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Mexicana pizza</h4>
+                    <p>Feferoni, panceta, kulen, kukuruz, sir, jalapenjo, pelat</p>
+                  </div>
+                  <span>8.50 €</span>
+                  <span>15.40 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Pepperoni pizza</h4>
+                    <p>Kulen, jalapenjo, sir, pelat</p>
+                  </div>
+                  <span>8.30 €</span>
+                  <span>15.60 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Chicken pizza</h4>
+                    <p>Feta sir, mocarela, piletina, šampinjoni, pelat, sir</p>
+                  </div>
+                  <span>8.80 €</span>
+                  <span>16.20 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Mađarica pizza</h4>
+                    <p>Feferoni, kulen, šunka, sir, kajmak, pelat, ljuta kobasica</p>
+                  </div>
+                  <span>9.20 €</span>
+                  <span>15.60 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Tono pizza</h4>
+                    <p>Tunjevina, crveni luk, pelat, sir</p>
+                  </div>
+                  <span>7.90 €</span>
+                  <span>15.20 €</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Rukola pizza</h4>
+                    <p>Rukola, čeri paradajz, sir, pelat, grana padano</p>
+                  </div>
+                  <span>8.30 €</span>
+                  <span>-</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Prosciutto pizza</h4>
+                    <p>Rukola, pršuta, grana padano, pelat, sir</p>
+                  </div>
+                  <span>9.50 €</span>
+                  <span>-</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Maslenica pizza</h4>
+                    <p>Piletina, sir, šampinjon sos, kajmak</p>
+                  </div>
+                  <span>8.80 €</span>
+                  <span>-</span>
+                </div>
+                <div class="menu__item">
+                  <div>
+                    <h4>Pizza sa govedinom</h4>
+                    <p>Goveđa pečenica, sudžuka, kajmak, šampinjoni, sir, pelat</p>
+                  </div>
+                  <span>9.20 €</span>
+                  <span>-</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="menu__panel menu__panel--sandwiches">
+              <h3 class="menu__title">Sendviči</h3>
+              <div class="sandwich__list">
+                <div class="sandwich__item">
+                  <span>Pileći sa šampinjonima</span>
+                  <strong>5.00 €</strong>
+                </div>
+                <div class="sandwich__item">
+                  <span>Pileći file sa pesto sosom</span>
+                  <strong>5.50 €</strong>
+                </div>
+                <div class="sandwich__item">
+                  <span>Sendvič sa kulenom</span>
+                  <strong>5.00 €</strong>
+                </div>
+                <div class="sandwich__item">
+                  <span>Sendvič sa šunkom</span>
+                  <strong>4.30 €</strong>
+                </div>
+                <div class="sandwich__item">
+                  <span>Domaći sendvič</span>
+                  <strong>5.80 €</strong>
+                </div>
+                <p class="sandwich__desc">
+                  Domaći sendvič se priprema sa njeguškim pršutom, njeguškim
+                  sirom i ruskom salatom.
+                </p>
+                <div class="sandwich__item">
+                  <span>Hrskava piletina</span>
+                  <strong>5.60 €</strong>
+                </div>
+              </div>
+              <img
+                src="assets/img/domaci-sendvic.jpg"
+                alt="Domaći sendvič sa pomfritom"
+                class="sandwich__photo"
+              />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h2 class="section__title">Poručite sada</h2>
+
+            <div class="contact__info grid">
+              <div>
+                <h3 class="contact__title">Pozovite nas</h3>
+                <div class="contact__social">
+                  <a
+                    href="tel:+38268753224"
+                    class="contact__social-link"
+                    aria-label="Pozovite Šućur Product"
+                  >
+                    <i class="ri-phone-fill"></i>
+                  </a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=38268753224&text=Pozdrav,%20zelim%20da%20porucim."
+                    target="_blank"
+                    class="contact__social-link"
+                    aria-label="WhatsApp porudžbina"
+                  >
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h3 class="contact__title">Dostava</h3>
+                <address class="contact__address">
+                  Porudžbine se primaju samo preko broja telefona:<br />
+                  <a href="tel:+38268753224">+382 68 753 224</a>
+                </address>
+              </div>
+              <div>
+                <h3 class="contact__title">Lokacija</h3>
+                <address class="contact__address">
+                  Šućur Product<br />
+                  Tivat, Crna Gora
+                </address>
+                <a
+                  href="#map"
+                  class="contact__map"
+                >
+                  <i class="ri-map-pin-fill"></i>
+                  <span>Pogledajte na mapi</span>
+                </a>
+              </div>
+              <div>
+                <h3 class="contact__title">Radno vrijeme</h3>
+                <address class="contact__address">
+                  Ponedjeljak - petak: 10:00 - 22:00<br />
+                  Nedjelja: 12:00 - 22:00
+                </address>
+              </div>
+            </div>
+          </div>
+          <div class="contact__image">
+            <img
+              src="assets/img/contact-img.png"
+              alt="dostava pizze"
+              class="contact__img"
+            />
+          </div>
+          <img
+            src="assets/img/sticker-tomato.svg"
+            alt="paradajz naljepnica"
+            class="contact__sticker-1"
+            data-waves
+          />
+          <img
+            src="assets/img/sticker-mushroom.svg"
+            alt="šampinjon naljepnica"
+            class="contact__sticker-2"
+            data-waves
+          />
+          <img
+            src="assets/img/sticker-onion.svg"
+            alt="luk naljepnica"
+            class="contact__sticker-3"
+            data-waves
+          />
+        </div>
+      </section>
+
+      <!--==================== MAP ====================-->
+      <section class="map__container container section" id="map">
+        <h2 class="section__title">Mapa do nas</h2>
+        <div class="karte__map">
+          <iframe
+            src="https://www.google.com/maps?q=42.426904,18.706655&z=16&output=embed"
+            width="100%"
+            height="400"
+            style="border: 0; width: 100%; margin: 0; padding: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Šućur Product lokacija"
+          ></iframe>
+        </div>
+        <div class="map__button-container">
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=42.42687051655488,18.70604872011146"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button map__button"
+          >
+            <i class="ri-map-pin-2-fill"></i>
+            <span><strong>Planirajte rutu</strong></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="#" class="footer__logo">Šućur Product</a>
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Kontakt</h3>
+            <ul class="footer__social">
+              <a
+                href="tel:+38268753224"
+                class="footer__social-link"
+                aria-label="Telefon"
+              >
+                <i class="ri-phone-fill"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=38268753224&text=Pozdrav,%20zelim%20da%20porucim."
+                target="_blank"
+                class="footer__social-link"
+                aria-label="WhatsApp"
+              >
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+            </ul>
+          </div>
+          <div class="footer__brand-mark">
+            <img
+              src="assets/img/sucur-pizza-tivat-logo.jpg"
+              alt="Šućur Product logo"
+              class="footer__brand-logo"
+            />
+          </div>
+          <div>
+            <h3 class="footer__title">Brza porudžbina</h3>
+            <a href="tel:+38268753224" class="footer__button button">
+              +382 68 753 224
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__policy">
+        <a href="#products" class="footer__link">Meni</a>
+        <a href="#contact" class="footer__link">Kontakt</a>
+      </div>
+      <span class="footer__copy">&#169; Šućur Product. Sva prava zadržana.</span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
